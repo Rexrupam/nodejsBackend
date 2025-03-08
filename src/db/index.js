@@ -1,7 +1,6 @@
 import mongoose from 'mongoose'
 import { DB_NAME } from '../constants.js';
 
-const string = "mongodb://localhost:27017//videotube"
 
  const connectdb=async()=>{
      try{
